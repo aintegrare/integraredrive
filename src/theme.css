@@ -1,0 +1,54 @@
+:root {
+  --primary-color: #4b7bb5;
+  --secondary-color: #527eb7;
+  --accent-color: #3d649e;
+  --highlight-color: #4072b0;
+  --light-blue: #6b91c1;
+  --background-color: #f2f1ef;
+  --text-color: #3d649e;
+}
+
+/* Override R2 Explorer default styles */
+.app {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+.header {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.sidebar {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.button {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
+}
+
+.button:hover {
+  background-color: var(--highlight-color);
+}
+
+.file-list {
+  background-color: var(--background-color);
+}
+
+.file-item:hover {
+  background-color: var(--light-blue);
+  color: var(--background-color);
+}
+
+/* Additional custom styles */
+.toolbar {
+  background-color: var(--primary-color);
+  color: var(--background-color);
+}
+
+.menu-item:hover {
+  background-color: var(--highlight-color);
+  color: var(--background-color);
+}

@@ -1,4 +1,5 @@
 import { R2Explorer } from "r2-explorer";
+import "./theme.css";
 
 export default R2Explorer({
   // Set to false to allow users to upload files
